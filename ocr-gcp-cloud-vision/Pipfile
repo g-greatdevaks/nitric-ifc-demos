@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "OCR GCP Cloud Vision - Nitric IfC Sample"
+
+[packages]
+nitric = "==1.0.2"
+
+[scripts]
+dev = "watchmedo auto-restart -p '*.py' -R python -- -u"
+
+[dev-packages]
+watchdog = "*"
